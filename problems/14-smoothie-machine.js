@@ -23,6 +23,15 @@ console.log(smoothie2("pineapple"));
 ***********************************************************************/
 
 // Your code here
+let smoothieMachine = (...products) => {
+  let sentence = "I'm having a smoothie with "
+  for (let i = 0; i < products.length; i++) {
+    sentence += products[i] + ' and '
+  }
+  return function(str) {
+    return sentence += str + ' and '
+  }
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
