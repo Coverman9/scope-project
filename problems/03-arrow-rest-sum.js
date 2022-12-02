@@ -11,7 +11,7 @@ arrowRestSum(0); // => 0
 ***********************************************************************/
 
 // Your code here
-
+const arrowRestSum = (...nums) => nums.reduce((acc, el) => acc + el)
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
