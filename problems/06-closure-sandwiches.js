@@ -18,6 +18,12 @@ sandwich2("pb") // => "One sandwich with tomato and pb"
 ***********************************************************************/
 
 // Your code here
+let sandwichMaker = str => {
+  let orderStr = 'One sandwich with tomato';
+  return function (topping) {
+    return orderStr += ' and ' + topping;
+  }
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
