@@ -11,6 +11,7 @@ arrowAvgValue([100, 60, 64]); // => 74.66666666666667
 ***********************************************************************/
 
 // Your code here
+let arrowAvgValue = array => array.reduce((acc, el) => acc + el) / array.length
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
