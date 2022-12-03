@@ -26,7 +26,9 @@ Example 3:
 ***********************************************************************/
 
 // Your code here
-
+const coinCollector = numCoins => {
+  console.log(numCoins)
+}
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
