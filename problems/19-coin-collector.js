@@ -27,8 +27,13 @@ Example 3:
 
 // Your code here
 const coinCollector = numCoins => {
-  console.log(numCoins)
+  let arr = []
+  return function(number) {
+    arr.push(number)
+    return arr
+  }
 }
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
